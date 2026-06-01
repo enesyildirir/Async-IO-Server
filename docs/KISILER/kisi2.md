@@ -23,7 +23,7 @@ src/broadcast.c    ← YAZI: broadcast sistemini implement et
 ### 1. utils.c — Loglama
 
 `log_info`, `log_warn`, `log_err` fonksiyonlarını yaz.
-Çıktı formatı şöyle olmalı:
+Çıktı formatı şöyle olmalı: 
 ```
 [14:32:01] [INFO] Yeni baglanti: 127.0.0.1 (fd=5)
 [14:32:05] [WARN] Gonderim hatasi fd=7

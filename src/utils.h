@@ -1,7 +1,3 @@
-/* src/utils.h
- * Kisi 2 — Loglama arayüzü
- * (Bu dosyaya dokunma, sadece utils.c'yi yaz)
- */
 #ifndef UTILS_H
 #define UTILS_H
 

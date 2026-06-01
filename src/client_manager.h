@@ -1,7 +1,3 @@
-/* src/client_manager.h
- * Kisi 2 — Bağlı istemci listesi arayüzü
- * (Bu dosyaya dokunma, sadece client_manager.c'yi yaz)
- */
 #ifndef CLIENT_MANAGER_H
 #define CLIENT_MANAGER_H
 
@@ -14,7 +10,7 @@ typedef struct {
     int  fd;
     char ip[INET_ADDRSTRLEN];
     int  port;
-    time_t connected_at;
+    time_t connected_at; 
 } client_t;
 
 void      client_add(int fd, struct sockaddr_in *addr);
